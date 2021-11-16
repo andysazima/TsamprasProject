@@ -1,0 +1,106 @@
+% Preamble
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{anyfontsize}
+\usepackage[english]{babel}
+\usepackage{bm}
+\usepackage{chngcntr}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{colortbl}
+\usepackage{empheq}
+\usepackage{enumitem}
+\usepackage{fancybox}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage{float}
+%\usepackage{fontspec}
+%	\defaultfontfeatures{Ligatures=TeX}
+\usepackage{gensymb}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, urlcolor=blue]{hyperref}
+\usepackage{lastpage}
+\usepackage{latexsym}
+\usepackage{lipsum}
+\usepackage{longtable}
+\usepackage{makecell}
+\usepackage{marvosym}
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage{nccmath}
+\usepackage[skip=0.85\baselineskip]{parskip}
+\usepackage{pdfpages}
+\usepackage{sagetex}
+\usepackage{setspace}
+\usepackage{stanli}
+\usepackage{tabularx}
+\usepackage{tcolorbox}
+\usepackage{tikz}
+	\usetikzlibrary{arrows.meta}
+	\usetikzlibrary{patterns.meta}
+	\usetikzlibrary{positioning}
+	\usetikzlibrary{shapes.geometric}
+\usepackage[explicit]{titlesec}
+\usepackage{titling}
+\usepackage{ulem}
+\usepackage{verbatim}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\usepackage{xfrac}
+\usepackage{xurl}
+	
+%----------------------------------
+% Special Definitions
+%----------------------------------	
+% Math Indent
+\newcommand{\mymathindent}[0]{0.5in}
+
+% Answer Box
+\newcommand{\answerbox}[0]{\fcolorbox{black}{gray!15}}
+
+% Section and Subsection Colors
+\newcommand{\sectioncolor}[0]{green!70!black!40!white}
+\newcommand{\subsectioncolor}[0]{green!75!black!8!white}
+	
+	
+%----------------------------------
+%Page Styles and Headers
+%----------------------------------
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyhead[L]{xxx}
+\fancyhead[C]{xxx}
+\fancyhead[R]{xxx}
+\fancyfoot[L]{xxx}
+\fancyfoot[C]{xxx}
+\fancyfoot[R]{\thepage{} of \pageref*{LastPage}}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
+\renewcommand{\sectionmark}[1]{ \markright{#1}{} }
+\setlength{\headsep}{18pt}
+\setlength{\headheight}{13.6pt}
+\setlength{\parsep}{12pt}
+\setlength{\jot}{12pt} %Equation spacing
+\setlength{\fboxsep}{10pt}
+\setlength{\fboxrule}{2pt}
+\setlength{\shadowsize}{4.5pt}
+
+\setlist[itemize]{parsep=6pt}
+\setlist[enumerate]{parsep=6pt}
+
+\allowdisplaybreaks %Allow long equation sections to span multiple pages
+
+
+
+
+
+
+
+%-----------------------------
+% Images
+%-----------------------------
+\graphicspath{{Images/}}
+
+

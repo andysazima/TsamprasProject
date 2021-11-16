@@ -1,0 +1,26 @@
+\documentclass[letterpaper,11pt,dvipsnames]{article}
+
+% % Input Files
+\input{Input tex Files/Preamble.tex}
+\input{Input tex Files/Custom Commands.tex}
+\input{Input tex Files/Custom Environments.tex}
+
+%%%%%%%%%%%%%%%%%%
+% Document Start %
+%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+% Sets sage plot font to LM11 
+\begin{sagesilent}
+    from matplotlib import rc
+    import matplotlib.pyplot as plt
+    plt.rc('text', usetex=True)
+    plt.rc('font',**{'family':'serif','serif':['Latin Modern Roman'],'size':11})
+    latex.matrix_delimiters(".", ".")
+\end{sagesilent}
+
+yeet
+	
+
+
+\end{document}

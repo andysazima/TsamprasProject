@@ -1,0 +1,7 @@
+% Custom Environments
+\newenvironment{answereq}{\empheq[outerbox=\answerbox]{gather*}}
+{\endempheq}
+
+\newsavebox{\ans}
+\newenvironment{answertext}{\hspace{\mathindent}\begin{lrbox}{\ans}}
+{\end{lrbox}\answerbox{\usebox{\ans}}}
